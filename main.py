@@ -1,6 +1,6 @@
 from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
-#Aplicativo que conta coisas em python
+#Aplicativo que conta coisas em python criado com a biblioteca kivy
 class Aplicativo(FloatLayout):
 	def soma (self):
 		self.ids.lb.text = str(int(self.ids.lb.text)+1)
